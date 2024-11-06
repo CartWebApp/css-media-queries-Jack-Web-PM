@@ -63,6 +63,7 @@
 }
 
 /* Tablet Styles*/
+/* using media and screen to select all the screen and its width*/
 @media screen and (max-width: 1024px){
   .third,
   .quarter {
@@ -70,7 +71,7 @@
   }
 
   [class^="box"]:last-child {
-    width: 98%;
+    /* width: 98%; */
     flex-grow:1;
   }
 
@@ -80,7 +81,7 @@
 }
 
 /* Mobile Styles*/
-
+/* same as tablet styles, start with @media screen and max-width, than select the class that wanted and the flexbox*/
 @media screen and (max-width: 520px){
   [class^="box"]{
     width: 97%; 
