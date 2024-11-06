@@ -63,7 +63,20 @@
 }
 
 /* Tablet Styles*/
+@media screen and (max-width: 1024px){
+  .third,
+  .quarter {
+    width: calc(97% / 2);
+  }
 
+  [class^="box"]:last-child {
+    width: 98%;
+  }
+
+  .flex-container {
+    height: fit-content;
+  }
+}
 
 
 
