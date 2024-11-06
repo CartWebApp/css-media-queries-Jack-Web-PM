@@ -71,6 +71,7 @@
 
   [class^="box"]:last-child {
     width: 98%;
+    flex-grow:1;
   }
 
   .flex-container {
@@ -78,11 +79,16 @@
   }
 }
 
-
-
 /* Mobile Styles*/
 
-
+@media screen and (max-width: 520px){
+  [class^="box"]{
+    width: 97%; 
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+}
 
 
 
